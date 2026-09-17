@@ -4,36 +4,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NederLeren PWA</title>
+  <script src="https://code.responsivevoice.org/responsivevoice.js?key=FREE"></script>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background-color: #f4f4f9; color: #333; }
-    .card { background: white; padding: 30px; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; max-width: 350px; width: 90%; }
-    h1 { font-size: 2.2rem; margin-bottom: 10px; color: #1a1a1a; }
+    .card { background: white; padding: 35px 25px; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; max-width: 380px; width: 85%; margin-bottom: 20px; }
+    h1 { font-size: 2.2rem; margin-bottom: 10px; color: #1a1a1a; word-wrap: break-word; }
     p { font-size: 1.2rem; color: #666; margin-bottom: 25px; }
-    button { background-color: #007aff; color: white; border: none; padding: 12px 24px; font-size: 1rem; border-radius: 8px; cursor: pointer; transition: background 0.2s; }
-    button:active { background-color: #0056b3; }
+    .btn-group { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+    button { background-color: #007aff; color: white; border: none; padding: 12px 20px; font-size: 1rem; border-radius: 8px; cursor: pointer; transition: background 0.2s; }
+    button.secondary { background-color: #34c759; }
+    button:active { opacity: 0.8; }
+    .counter { font-size: 0.9rem; color: #888; margin-top: 15px; }
   </style>
-<script src="https://code.responsivevoice.org/responsivevoice.js?key=FREE"></script></head>
+</head>
 <body>
   <div class="card">
-    <h1 id="dutch-word">Goedemorgen</h1>
-    <p id="translation">Günaydın</p>
-    <button onclick="playDutchAudio()">Listen 🔊</button>
+    <h1 id="dutch-word">Laden...</h1>
+    <p id="translation">Yükleniyor...</p>
+    <div class="btn-group">
+      <button onclick="playAudio()">Listen 🔊</button>
+      <button class="secondary" onclick="nextCard()">Next ➡️</button>
+    </div>
+    <div class="counter" id="counter">0 / 0</div>
   </div>
 
   <script>
-    function playDutchAudio(text){ responsiveVoice.speak(text || document.getElementById("dutch-word").innerText, "Dutch Female"); }&tl=nl&client=tw-ob`;
-      
-      const audio = new Audio(audioUrl);
-      audio.play().catch(err => {
-        console.log("Audio play failed, falling back:", err);
-        // Fallback to WebSpeech if stream is blocked
-        if ('speechSynthesis' in window) {
-          const utterance = new SpeechSynthesisUtterance(text);
-          utterance.lang = 'nl-NL';
-          window.speechSynthesis.speak(utterance);
+    let words = [];
+    let currentIndex = 0;
+
+    async function loadCSV() {
+      try {
+        const response = await fetch('words.csv?v=' + Date.now());
+        const data = await response.text();
+        const lines = data.split('\n');
+        words = lines.map(line => {
+          const parts = line.split(',');
+          if (parts.length >= 2) {
+            return { nl: parts[0].trim().replace(/^"|"$/g, ''), tr: parts[1].trim().replace(/^"|"$/g, '') };
+          }
+          return null;
+        }).filter(item => item && item.nl);
+
+        if (words.length > 0) {
+          showCard(0);
+        } else {
+          document.getElementById('dutch-word').innerText = "Veri bulunamadı";
         }
-      });
+      } catch (e) {
+        document.getElementById('dutch-word').innerText = "CSV Yüklenemedi";
+      }
     }
+
+    function showCard(index) {
+      if (words.length === 0) return;
+      currentIndex = index;
+      document.getElementById('dutch-word').innerText = words[currentIndex].nl;
+      document.getElementById('translation').innerText = words[currentIndex].tr;
+      document.getElementById('counter').innerText = `${currentIndex + 1} / ${words.length}`;
+    }
+
+    function nextCard() {
+      let next = Math.floor(Math.random() * words.length);
+      showCard(next);
+    }
+
+    function playAudio() {
+      const text = words[currentIndex] ? words[currentIndex].nl : document.getElementById('dutch-word').innerText;
+      if (!text || text === 'Laden...') return;
+
+      if (window.responsiveVoice) {
+        responsiveVoice.speak(text, "Dutch Female");
+      } else {
+        const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=nl&client=tw-ob`;
+        const audio = new Audio(audioUrl);
+        audio.play().catch(() => {
+          if ('speechSynthesis' in window) {
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'nl-NL';
+            window.speechSynthesis.speak(utterance);
+          }
+        });
+      }
+    }
+
+    window.onload = loadCSV;
   </script>
 </body>
 </html>

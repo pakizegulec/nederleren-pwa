@@ -1,0 +1,906 @@
+﻿Hollandaca;Türkçe;sınav önceliği
+de man;adam / erkek;
+de vrouw;kadın;
+de jongen;erkek çocuk / oğlan;
+het meisje;kız çocuk / kız;
+het kind;çocuk;
+de baby;bebek;
+de persoon;kişi;
+de mensen;insanlar;
+de vriend;erkek arkadaş / dost;
+de vriendin;kız arkadaş / kadın arkadaş;
+de buurman;erkek komşu;
+de buurvrouw;kadın komşu;
+de collega;iş arkadaşı;
+de baas;patron;
+de klant;müşteri;
+de dokter;doktor;
+de leraar;öğretmen (erkek);
+de lerares;öğretmen (kadın);
+de student;öğrenci;
+de leerling;öğrenci / okul öğrencisi;
+de familie;aile;
+de vader;baba;
+de moeder;anne;
+de ouders;ebeveynler;
+de zoon;oğul;
+de dochter;kız evlat;
+de broer;erkek kardeş;
+de zus;kız kardeş;
+de man;koca / eş;
+de vrouw;eş / karı;
+de partner;partner / eş;
+de opa;dede;
+de oma;büyükanne;
+de grootouders;büyükanne ve büyükbaba;
+de oom;amca / dayı / erkek akraba;
+de tante;teyze / hala;
+de neef;erkek kuzen / yeğen;
+de nicht;kız kuzen / yeğen;
+de ouders;anne-baba;
+getrouwd;evli;
+alleenstaand;bekar / yalnız yaşayan;
+gescheiden;boşanmış;
+de naam;isim;
+de voornaam;ad;
+de achternaam;soyadı;
+de leeftijd;yaş;
+de verjaardag;doğum günü;
+de geboortedatum;doğum tarihi;
+de geboorteplaats;doğum yeri;
+het adres;adres;
+de straat;sokak / cadde;
+het huisnummer;ev numarası;
+de postcode;posta kodu;
+de woonplaats;ikamet edilen yer;
+het land;ülke;
+de nationaliteit;uyruk / milliyet;
+het telefoonnummer;telefon numarası;
+het e-mailadres;e-posta adresi;
+het paspoort;pasaport;
+de identiteitskaart;kimlik kartı;
+Wie?;Kim?;
+Wat?;Ne?;
+Waar?;Nerede?;
+Waarvandaan?;Nereden?;
+Waarheen?;Nereye?;
+Wanneer?;Ne zaman?;
+Waarom?;Neden?;
+Hoe?;Nasıl?;
+Hoeveel?;Ne kadar / kaç?;
+Welke?;Hangi?;
+ik;ben;
+jij / je;sen;
+u;siz;
+hij;o (erkek);
+zij / ze;o (kadın);
+het;o (cansız / nötr);
+wij / we;biz;
+jullie;siz (çoğul);
+zij / ze;onlar;
+zijn;olmak;
+hebben;sahip olmak;
+heten;adı olmak;
+wonen;yaşamak / ikamet etmek;
+komen;gelmek;
+gaan;gitmek;
+doen;yapmak;
+maken;yapmak / üretmek;
+werken;çalışmak;
+leren;öğrenmek;
+studeren;eğitim görmek;
+spreken;konuşmak;
+zeggen;söylemek;
+vragen;sormak;
+antwoorden;cevaplamak;
+luisteren;dinlemek;
+lezen;okumak;
+schrijven;yazmak;
+kijken;bakmak / izlemek;
+zien;görmek;
+horen;duymak;
+begrijpen;anlamak;
+weten;bilmek;
+kennen;tanımak / bilmek;
+vinden;bulmak / düşünmek;
+geven;vermek;
+krijgen;almak / elde etmek;
+nemen;almak;
+geven;vermek;
+willen;istemek;
+kunnen;yapabilmek;
+moeten;zorunda olmak;
+mogen;izinli olmak;
+kunnen;-ebilmek;
+proberen;denemek;
+helpen;yardım etmek;
+wachten;beklemek;
+zoeken;aramak;
+gebruiken;kullanmak;
+kopen;satın almak;
+betalen;ödemek;
+eten;yemek;
+drinken;içmek;
+slapen;uyumak;
+wonen;yaşamak;
+goed;iyi;
+slecht;kötü;
+moe;yorgun;
+ziek;hasta;
+gezond;sağlıklı;
+blij;mutlu;
+verdrietig;üzgün;
+boos;kızgın;
+bang;korkmuş;
+druk;meşgul / yoğun;
+rustig;sakin;
+hongerig;aç;
+dorstig;susamış;
+warm;sıcak;
+koud;soğuk;
+lekker;lezzetli / güzel;
+leuk;hoş / eğlenceli;
+mooi;güzel;
+moeilijk;zor;
+makkelijk;kolay;
+hallo;merhaba;
+hoi;selam;
+goedemorgen;günaydın;
+goedemiddag;iyi günler;
+goedenavond;iyi akşamlar;
+welterusten;iyi geceler;
+tot ziens;görüşmek üzere;
+tot morgen;yarın görüşürüz;
+bedankt;teşekkürler;
+dank je;teşekkür ederim;
+graag gedaan;rica ederim;
+alsjeblieft;lütfen / buyur;
+sorry;üzgünüm / pardon;
+geen probleem;sorun değil;
+ja;evet;
+nee;hayır;
+misschien;belki;
+natuurlijk;tabii / elbette;
+goed;iyi / tamam;
+prima;harika / tamam;
+nul;0;
+één;1;
+twee;2;
+drie;3;
+vier;4;
+vijf;5;
+zes;6;
+zeven;7;
+acht;8;
+negen;9;
+tien;10;
+elf;11;
+twaalf;12;
+dertien;13;
+veertien;14;
+vijftien;15;
+zestien;16;
+zeventien;17;
+achttien;18;
+negentien;19;
+twintig;20;
+dertig;30;
+veertig;40;
+vijftig;50;
+honderd;100;
+duizend;1000;
+jong;genç;
+oud;yaşlı / eski;
+volwassen;yetişkin;
+klein;küçük;
+groot;büyük;
+aardig;hoş / nazik;
+vriendelijk;arkadaş canlısı;
+alleen;yalnız / tek;
+samen;birlikte;
+getrouwd;evli;
+verliefd;aşık;
+jarig;doğum günü olan;
+geboren;doğmuş;
+Nederlands;Hollandalı / Hollandaca;
+Turks;Türk / Türkçe;
+buitenlander;yabancı;
+de buitenlander;yabancı kişi;
+de vraag;soru;
+het antwoord;cevap;
+de taal;dil;
+het woord;kelime;
+de zin;cümle;
+de naam;isim;
+het gesprek;konuşma;
+het verhaal;hikâye / anlatı;
+de brief;mektup;
+de boodschap;mesaj;
+de informatie;bilgi;
+de uitleg;açıklama;
+het voorbeeld;örnek;
+de betekenis;anlam;
+wonen;yaşamak;
+leven;yaşamak / hayat sürmek;
+blijven;kalmak;
+beginnen;başlamak;
+stoppen;durmak / bırakmak;
+wachten;beklemek;
+helpen;yardım etmek;
+zoeken;aramak;
+vinden;bulmak;
+houden van;sevmek;
+voelen;hissetmek;
+denken;düşünmek;
+geloven;inanmak;
+hopen;umut etmek;
+kiezen;seçmek;
+leren;öğrenmek;
+vergeten;unutmak;
+onthouden;hatırlamak / akılda tutmak;
+oefenen;pratik yapmak;
+proberen;denemek;
+vragen;sormak;
+vertellen;anlatmak;
+uitleggen;açıklamak;
+herhalen;tekrarlamak;
+verstaan;söyleneni anlamak;
+betekenen;anlamına gelmek;
+ook;de / ayrıca;
+niet;değil / -me, -ma;
+wel;ise / gerçekten / karşıtlık vurgusu;
+heel;çok / oldukça;
+erg;çok / oldukça;
+meer;daha fazla;
+minder;daha az;
+veel;çok / birçok;
+weinig;az;
+genoeg;yeterince;
+altijd;her zaman;
+vaak;sık sık;
+soms;bazen;
+nooit;asla / hiç;
+weer;tekrar / yine;
+nog;hâlâ / daha;
+al;zaten / çoktan;
+alleen;sadece / yalnız;
+samen;birlikte;
+bijna;neredeyse;
+misschien;belki;
+de leeftijd;yaş;
+jaar;yıl / yaş;
+oud;yaşında / yaşlı;
+de datum;tarih;
+vandaag;bugün;
+gisteren;dün;
+morgen;yarın;
+nu;şimdi;
+later;sonra;
+vroeger;eskiden;
+binnenkort;yakında;
+de verjaardag;doğum günü;
+geboren worden;doğmak;
+trouwen;evlenmek;
+scheiden;boşanmak;
+het huis;ev;⭐⭐⭐ ÇOK ÖNEMLİ
+de woning;konut / ev;⭐⭐⭐ ÇOK ÖNEMLİ
+het appartement;apartman dairesi;A1
+de kamer;oda;⭐⭐⭐ ÇOK ÖNEMLİ
+de woonkamer;oturma odası / salon;⭐⭐⭐ ÇOK ÖNEMLİ
+de slaapkamer;yatak odası;⭐⭐⭐ ÇOK ÖNEMLİ
+de keuken;mutfak;⭐⭐⭐ ÇOK ÖNEMLİ
+de badkamer;banyo;⭐⭐⭐ ÇOK ÖNEMLİ
+het toilet;tuvalet;⭐⭐⭐ ÇOK ÖNEMLİ
+de gang;koridor;A1
+de hal;hol / antre;A1
+de tuin;bahçe;A1
+het balkon;balkon;A1
+de garage;garaj;A1
+de trap;merdiven;A1
+de deur;kapı;⭐⭐⭐ ÇOK ÖNEMLİ
+het raam;pencere;⭐⭐⭐ ÇOK ÖNEMLİ
+de muur;duvar;A1
+de vloer;zemin / döşeme;A1
+het plafond;tavan;A1
+het dak;çatı;A1
+de sleutel;anahtar;⭐⭐⭐ ÇOK ÖNEMLİ
+de tafel;masa;⭐⭐⭐ ÇOK ÖNEMLİ
+de stoel;sandalye;⭐⭐⭐ ÇOK ÖNEMLİ
+de bank;koltuk / kanepe;A1
+het bed;yatak;⭐⭐⭐ ÇOK ÖNEMLİ
+de kast;dolap;⭐⭐⭐ ÇOK ÖNEMLİ
+de kledingkast;giysi dolabı;A1
+de boekenkast;kitaplık;A1
+het bureau;çalışma masası;A1
+de lamp;lamba;A1
+de spiegel;ayna;A1
+het tapijt;halı;A1
+het gordijn;perde;A1
+de televisie;televizyon;A1
+de koelkast;buzdolabı;⭐⭐⭐ ÇOK ÖNEMLİ
+de vriezer;dondurucu;A1
+de oven;fırın;⭐⭐⭐ ÇOK ÖNEMLİ
+de magnetron;mikrodalga;A1
+het fornuis;ocak;A1
+de vaatwasser;bulaşık makinesi;A1
+de wasmachine;çamaşır makinesi;⭐⭐⭐ ÇOK ÖNEMLİ
+de droger;kurutma makinesi;A1
+de douche;duş;⭐⭐⭐ ÇOK ÖNEMLİ
+het bad;küvet;A1
+de wastafel;lavabo;A1
+de wc;tuvalet;A1
+de wasbak;lavabo / evye;A1
+het bord;tabak;A1
+het glas;bardak;A1
+de kop;fincan;A1
+de mok;kupa;A1
+de lepel;kaşık;A1
+de vork;çatal;A1
+het mes;bıçak;A1
+de pan;tencere / tava;A1
+de pot;tencere / kavanoz;A1
+de fles;şişe;A1
+het kopje;küçük fincan;A1
+de kom;kase;A1
+het servet;peçete;A1
+de handdoek;havlu;A1
+de zeep;sabun;A1
+de tandenborstel;diş fırçası;A1
+de tandpasta;diş macunu;A1
+het toiletpapier;tuvalet kağıdı;A1
+de kleding;kıyafet / giysi;⭐⭐⭐ ÇOK ÖNEMLİ
+het shirt;gömlek / tişört;A1
+het T-shirt;tişört;A1
+de broek;pantolon;⭐⭐⭐ ÇOK ÖNEMLİ
+de spijkerbroek;kot pantolon;A1
+de rok;etek;A1
+de jurk;elbise;A1
+de trui;kazak;A1
+de jas;ceket / mont;⭐⭐⭐ ÇOK ÖNEMLİ
+de schoenen;ayakkabılar;⭐⭐⭐ ÇOK ÖNEMLİ
+de sokken;çoraplar;A1
+de pyjama;pijama;A1
+de hoed;şapka;A1
+de muts;bere;A1
+de sjaal;atkı;A1
+de handschoenen;eldivenler;A1
+de riem;kemer;A1
+de tas;çanta;A1
+de zak;cep / poşet;A1
+aantrekken;giymek;A1
+uitdoen;çıkarmak;A1
+wonen;yaşamak / oturmak;⭐⭐⭐ ÇOK ÖNEMLİ
+zitten;oturmak;⭐⭐⭐ ÇOK ÖNEMLİ
+staan;ayakta durmak;⭐⭐⭐ ÇOK ÖNEMLİ
+liggen;yatmak / durmak;⭐⭐⭐ ÇOK ÖNEMLİ
+slapen;uyumak;⭐⭐⭐ ÇOK ÖNEMLİ
+wakker worden;uyanmak;A1
+opstaan;kalkmak / yataktan çıkmak;⭐⭐⭐ ÇOK ÖNEMLİ
+douchen;duş almak;A1
+wassen;yıkamak;⭐⭐⭐ ÇOK ÖNEMLİ
+poetsen;temizlemek / fırçalamak;A1
+koken;yemek pişirmek;⭐⭐⭐ ÇOK ÖNEMLİ
+eten;yemek;⭐⭐⭐ ÇOK ÖNEMLİ
+drinken;içmek;⭐⭐⭐ ÇOK ÖNEMLİ
+afwassen;bulaşık yıkamak;A1
+schoonmaken;temizlemek;⭐⭐⭐ ÇOK ÖNEMLİ
+stofzuigen;elektrik süpürgesiyle süpürmek;A1
+wassen;çamaşır yıkamak;⭐⭐⭐ ÇOK ÖNEMLİ
+strijken;ütülemek;A1
+opruimen;toplamak / düzenlemek;A1
+openen;açmak;⭐⭐⭐ ÇOK ÖNEMLİ
+sluiten;kapatmak;⭐⭐⭐ ÇOK ÖNEMLİ
+aanzetten;açmak / çalıştırmak;⭐⭐⭐ ÇOK ÖNEMLİ
+uitzetten;kapatmak;⭐⭐⭐ ÇOK ÖNEMLİ
+doen;yapmak;A1
+gebruiken;kullanmak;⭐⭐⭐ ÇOK ÖNEMLİ
+pakken;almak / eline almak;⭐⭐⭐ ÇOK ÖNEMLİ
+leggen;koymak / yatırmak;⭐⭐⭐ ÇOK ÖNEMLİ
+zetten;koymak / dik konumda yerleştirmek;⭐⭐⭐ ÇOK ÖNEMLİ
+brengen;getirmek / götürmek;⭐⭐⭐ ÇOK ÖNEMLİ
+halen;alıp getirmek;A1
+bewaren;saklamak;A1
+de ochtend;sabah;⭐⭐⭐ ÇOK ÖNEMLİ
+de middag;öğleden sonra;⭐⭐⭐ ÇOK ÖNEMLİ
+de avond;akşam;⭐⭐⭐ ÇOK ÖNEMLİ
+de nacht;gece;⭐⭐⭐ ÇOK ÖNEMLİ
+de dag;gün;⭐⭐⭐ ÇOK ÖNEMLİ
+de week;hafta;⭐⭐⭐ ÇOK ÖNEMLİ
+het weekend;hafta sonu;⭐⭐⭐ ÇOK ÖNEMLİ
+de vakantie;tatil;⭐⭐⭐ ÇOK ÖNEMLİ
+de vrije tijd;boş zaman;A1
+het ontbijt;kahvaltı;⭐⭐⭐ ÇOK ÖNEMLİ
+de lunch;öğle yemeği;⭐⭐⭐ ÇOK ÖNEMLİ
+het avondeten;akşam yemeği;A1
+de maaltijd;öğün;⭐⭐⭐ ÇOK ÖNEMLİ
+de koffie;kahve;A1
+de thee;çay;A1
+thuis;evde / evdeki;⭐⭐⭐ ÇOK ÖNEMLİ
+naar huis;eve;⭐⭐⭐ ÇOK ÖNEMLİ
+van huis;evden;A1
+binnen;içeride;⭐⭐⭐ ÇOK ÖNEMLİ
+buiten;dışarıda;⭐⭐⭐ ÇOK ÖNEMLİ
+boven;yukarıda / üst katta;⭐⭐⭐ ÇOK ÖNEMLİ
+beneden;aşağıda / alt katta;⭐⭐⭐ ÇOK ÖNEMLİ
+voor;önünde / önce;⭐⭐⭐ ÇOK ÖNEMLİ
+achter;arkasında / sonra;⭐⭐⭐ ÇOK ÖNEMLİ
+naast;yanında;⭐⭐⭐ ÇOK ÖNEMLİ
+tussen;arasında;⭐⭐⭐ ÇOK ÖNEMLİ
+tegenover;karşısında;A1
+bij;yanında / -de;⭐⭐⭐ ÇOK ÖNEMLİ
+in;içinde / -de;⭐⭐⭐ ÇOK ÖNEMLİ
+op;üstünde / -de;⭐⭐⭐ ÇOK ÖNEMLİ
+onder;altında;⭐⭐⭐ ÇOK ÖNEMLİ
+met;ile;A1
+zonder;olmadan / -siz;A1
+aan;-e/-a / üzerinde;A1
+tegen;karşı / -e doğru;A1
+dichtbij;yakında;A1
+ver;uzak;A1
+links;sol;⭐⭐⭐ ÇOK ÖNEMLİ
+rechts;sağ;⭐⭐⭐ ÇOK ÖNEMLİ
+rechtdoor;düz;⭐⭐⭐ ÇOK ÖNEMLİ
+hier;burada;⭐⭐⭐ ÇOK ÖNEMLİ
+daar;orada;⭐⭐⭐ ÇOK ÖNEMLİ
+ergens;bir yerde;A1
+nergens;hiçbir yerde;A1
+open;açık;⭐⭐⭐ ÇOK ÖNEMLİ
+dicht;kapalı;⭐⭐⭐ ÇOK ÖNEMLİ
+schoon;temiz;⭐⭐⭐ ÇOK ÖNEMLİ
+vies;kirli;⭐⭐⭐ ÇOK ÖNEMLİ
+leeg;boş;⭐⭐⭐ ÇOK ÖNEMLİ
+vol;dolu;⭐⭐⭐ ÇOK ÖNEMLİ
+licht;aydınlık / hafif;A1
+donker;karanlık;A1
+groot;büyük;⭐⭐⭐ ÇOK ÖNEMLİ
+klein;küçük;⭐⭐⭐ ÇOK ÖNEMLİ
+hoog;yüksek;A1
+laag;alçak;A1
+breed;geniş;A1
+smal;dar;A1
+nieuw;yeni;A1
+oud;eski;A1
+mooi;güzel;A1
+lelijk;çirkin;A1
+duur;pahalı;A1
+goedkoop;ucuz;A1
+kapot;bozuk / kırık;A1
+heel;sağlam / bütün;A1
+de schoonmaak;temizlik;A1
+het huishouden;ev işleri / hane;A1
+de was;çamaşır;A1
+de afwas;bulaşık;A1
+het afval;çöp / atık;A1
+de vuilnisbak;çöp kutusu;A1
+de vuilniszak;çöp poşeti;A1
+het papier;kağıt;A1
+het plastic;plastik;A1
+het glas;cam;A1
+de verwarming;ısıtma / kalorifer;A1
+de elektriciteit;elektrik;A1
+het licht;ışık;A1
+het water;su;A1
+de rekening;fatura / hesap;⭐⭐⭐ ÇOK ÖNEMLİ
+de huur;kira;⭐⭐⭐ ÇOK ÖNEMLİ
+de huisbaas;ev sahibi / erkek ev sahibi;A1
+de huisvrouw;ev hanımı;A1
+de huisgenoot;ev arkadaşı / aynı evde yaşayan kişi;A1
+de buur;komşu;A1
+elke dag;her gün;A1
+iedere dag;her gün;A1
+s morgens;sabahları;A1
+s middags;öğleden sonraları;A1
+s avonds;akşamları;A1
+s nachts;geceleri;A1
+meestal;genellikle;A1
+eerst;önce / ilk olarak;A1
+daarna;sonra / ardından;A1
+dan;sonra / o zaman;A1
+snel;hızlı;A1
+langzaam;yavaş;A1
+vroeg;erken;A1
+laat;geç;A1
+weer;yine / tekrar;A1
+samen;birlikte;A1
+alleen;yalnız / sadece;A1
+de verjaardag;doğum günü;A1
+bezoeken;ziyaret etmek;A1
+uitnodigen;davet etmek;A1
+slagen;başarmak / geçmek;A1
+verhuizen;taşınmak;⭐⭐⭐ ÇOK ÖNEMLİ
+huren;kiralamak;⭐⭐⭐ ÇOK ÖNEMLİ
+kopen;satın almak;A1
+lenen;ödünç almak;A1
+lenen;ödünç vermek / almak;A1
+repareren;tamir etmek;A1
+betalen;ödemek;⭐⭐⭐ ÇOK ÖNEMLİ
+kosten;maliyeti olmak;A1
+nodig hebben;ihtiyaç duymak;⭐⭐⭐ ÇOK ÖNEMLİ
+willen;istemek;A1
+moeten;zor moeten / zorunda olmak;⭐⭐⭐ ÇOK ÖNEMLİ
+kunnen;-ebilmek;⭐⭐⭐ ÇOK ÖNEMLİ
+schoonvader;kayınpeder;Mijn schoonvader woont in Rotterdam.
+schoonmoeder;kayınvalide;Ik bel elke week met mijn schoonmoeder.
+stiefvader;üvey baba;Zijn stiefvader is heel aardig.
+stiefmoeder;üvey anne;Haar stiefmoeder komt uit Spanje.
+halfbroer;üvey (anne/baba bir) erkek kardeş;Ik heb een halfbroer in Amsterdam.
+halfzus;üvey (anne/baba bir) kız kardeş;Mijn halfzus is jonger dan ik.
+verloofd;nişanlı;Wij zijn verloofd sinds vorig jaar.
+weduwe;dul kadın;Zij is weduwe na het overlijden van haar man.
+weduwnaar;dul erkek;Hij is weduwnaar en woont alleen.
+mijn;benim;Dit is mijn huis.
+jouw / je;senin;Is dit jouw telefoon?
+zijn (iyelik);onun (erkek);Dit is zijn boek.
+haar (iyelik);onun (kadın);Dit is haar tas.
+ons / onze;bizim;Dit is ons huis.
+hun;onların;Dit is hun auto.
+dit;bu (het-kelimeleri);Dit is mooi.
+deze;bu (de-kelimeleri);Deze man is mijn buurman.
+dat;şu / o (het-kelimeleri);Dat is mijn huis.
+die;şu / o (de-kelimeleri);Die vrouw is mijn collega.
+geboorteland;doğum ülkesi;Nederland is mijn geboorteland.
+moedertaal;anadil;Mijn moedertaal is Turks.
+Hoe gaat het?;Nasılsın?;Hoe gaat het met jou?
+Het gaat goed.;İyiyim.;Dank je, het gaat goed.
+welkom;hoş geldin(iz);Welkom in Nederland!
+handtekening;imza;Zet hier uw handtekening.
+burger;vatandaş;Ik ben een Nederlandse burger.
+inwoner;sakin / oturan kişi;Zij is inwoner van Zwolle.
+school;okul;Ik ga naar de taalschool.
+klas;sınıf;Onze klas is groot.
+klaslokaal;sınıf odası;Het klaslokaal is licht en schoon.
+docent;öğretmen (erkek);De docent legt de grammatica uit.
+docente;öğretmen (kadın);De docente is heel geduldig.
+cursist;kursiyer;Elke cursist krijgt een boek.
+groep;grup;Onze groep heeft acht cursisten.
+les;ders;De les begint om negen uur.
+lesboek;ders kitabı;Ik heb mijn lesboek vergeten.
+werkboek;çalışma kitabı;Maak oefening drie in het werkboek.
+schrift;defter;Schrijf de nieuwe woorden in je schrift.
+pen;tükenmez kalem;Mag ik jouw pen lenen?
+potlood;kurşun kalem;Ik teken met een potlood.
+gum;silgi;Heb je een gum voor mij?
+bord;yazı tahtası;De docent schrijft op het bord.
+tafel;masa;Leg je boek op de tafel.
+stoel;sandalye;Ga op je stoel zitten.
+map;dosya / klasör;Alle papieren zitten in de map.
+papier;kağıt;Ik heb een blad papier nodig.
+huiswerk;ev ödevi;Maak het huiswerk voor morgen.
+oefening;alıştırma;Deze oefening is niet moeilijk.
+opdracht;görev / ödev;Lees de opdracht goed.
+toets;kısa sınav;Volgende week hebben we een toets.
+examen;sınav;Het examen is in juni.
+cijfer;not (puan);Ik heb een goed cijfer gehaald.
+niveau;seviye;Mijn niveau is nu A1.
+certificaat;sertifika;Na de cursus krijg je een certificaat.
+diploma;diploma;Zij heeft haar diploma behaald.
+pauze;teneffüs / mola;We hebben een pauze van tien minuten.
+rooster;ders programı;Kijk op het rooster voor de tijd.
+computer;bilgisayar;Ik werk op de computer.
+internet;internet;Wij oefenen ook op het internet.
+downloaden;indirmek;Kun je het document downloaden?
+printen;yazdırmak;Ik moet dit document printen.
+rekenmachine;hesap makinesi;Mag ik jouw rekenmachine gebruiken?
+agenda;ajanda;Schrijf het huiswerk in je agenda.
+inschrijven;kayıt olmak;Ik wil mij inschrijven voor de cursus.
+aanwezig;hazır bulunan;Iedereen is vandaag aanwezig.
+afwezig;devamsız;Hij is morgen afwezig.
+te laat;geç;Sorry, ik ben te laat.
+op tijd;zamanında;Kom je morgen op tijd?
+het eten;yemek / yiyecek;Ik maak het eten.
+het voedsel;gıda;Het voedsel is vers.
+de maaltijd;öğün;De maaltijd is lekker.
+het ontbijt;kahvaltı;Ik eet ontbijt.
+de lunch;öğle yemeği;Ik eet lunch om twaalf uur.
+het avondeten;akşam yemeği;Het avondeten is klaar.
+het tussendoortje;ara öğün / atıştırmalık;Ik eet een tussendoortje.
+de snack;atıştırmalık;Ik wil een snack.
+het gerecht;yemek / yemek çeşidi;Het gerecht is lekker.
+het ingrediënt;malzeme;Wat is dit ingrediënt?
+het recept;tarif;Ik heb een recept.
+de smaak;tat;De smaak is goed.
+de portie;porsiyon;De portie is groot.
+de honger;açlık;Ik heb honger.
+de dorst;susuzluk;Ik heb dorst.
+het brood;ekmek;Ik koop brood.
+het broodje;sandviç / küçük ekmek;Ik eet een broodje.
+de boterham;ekmek dilimi / sandviç;Ik eet een boterham.
+het volkorenbrood;tam tahıllı ekmek;Ik koop volkorenbrood.
+het witbrood;beyaz ekmek;Ik eet witbrood.
+het bruinbrood;esmer ekmek;Ik koop bruinbrood.
+de bakker;fırıncı / fırın;Ik ga naar de bakker.
+de bakkerij;fırın / pastane;De bakkerij is open.
+de croissant;kruvasan;Ik eet een croissant.
+de taart;pasta / turta;De taart is lekker.
+het gebak;hamur işi / pasta;Het gebak is vers.
+de cake;kek;Ik maak een cake.
+de koek;kurabiye;Ik eet een koek.
+het koekje;küçük kurabiye;Het koekje is lekker.
+de muffin;muffin;Ik eet een muffin.
+de pizza;pizza;Ik bestel een pizza.
+de pannenkoek;krep / pankek;Ik maak pannenkoeken.
+de wafel;waffle;Ik eet een wafel.
+het vlees;et;Ik eet geen vlees.
+de kip;tavuk;Ik koop kip.
+het kippenvlees;tavuk eti;Het kippenvlees is vers.
+het rundvlees;sığır eti;Ik koop rundvlees.
+het varkensvlees;domuz eti;Het varkensvlees is duur.
+het gehakt;kıyma;Ik koop gehakt.
+de biefstuk;biftek;De biefstuk is lekker.
+de worst;sosis / sucuk benzeri;Ik koop een worst.
+de ham;jambon;Ik eet ham.
+de bacon;bacon;Ik eet bacon.
+de vis;balık;Ik eet vis.
+de zalm;somon;Ik koop zalm.
+de tonijn;ton balığı;Ik eet tonijn.
+de garnalen;karides;Ik eet garnalen.
+het ei;yumurta;Ik eet een ei.
+de eieren;yumurtalar;Ik koop eieren.
+de melk;süt;Ik drink melk.
+de kaas;peynir;Ik koop kaas.
+de boter;tereyağı;Ik koop boter.
+de yoghurt;yoğurt;Ik eet yoghurt.
+de room;krema;Ik gebruik room.
+de slagroom;çırpılmış krema;Ik wil slagroom.
+de kwark;quark / süzme peynir benzeri;Ik eet kwark.
+de groente;sebze;Ik eet veel groente.
+de aardappel;patates;Ik kook aardappelen.
+de tomaat;domates;Ik koop tomaten.
+de komkommer;salatalık;Ik eet een komkommer.
+de wortel;havuç;Ik eet een wortel.
+de ui;soğan;Ik snijd een ui.
+de knoflook;sarımsak;Ik gebruik knoflook.
+de paprika;biber;Ik koop een paprika.
+de peper;biber / karabiber;Ik doe peper in de soep.
+de sla;marul / salata;Ik eet sla.
+de spinazie;ıspanak;Ik kook spinazie.
+de broccoli;brokoli;Ik eet broccoli.
+de bloemkool;karnabahar;Ik kook bloemkool.
+de courgette;kabak;Ik koop een courgette.
+de aubergine;patlıcan;Ik eet aubergine.
+de champignon;mantar;Ik koop champignons.
+de boon;fasulye;Ik eet bonen.
+de sperzieboon;taze fasulye;Ik kook sperziebonen.
+de erwt;bezelye;Ik eet erwten.
+de maïs;mısır;Ik eet maïs.
+de prei;pırasa;Ik koop prei.
+de kool;lahana;Ik kook kool.
+de rode kool;kırmızı lahana;Ik eet rode kool.
+de biet;pancar;Ik koop een biet.
+de pompoen;balkabağı;Ik koop een pompoen.
+de avocado;avokado;Ik eet een avocado.
+het fruit;meyve;Ik eet fruit.
+de appel;elma;Ik eet een appel.
+de peer;armut;Ik koop een peer.
+de banaan;muz;Ik eet een banaan.
+de sinaasappel;portakal;Ik eet een sinaasappel.
+de mandarijn;mandalina;Ik koop mandarijnen.
+de citroen;limon;Ik koop een citroen.
+de aardbei;çilek;Ik eet aardbeien.
+de druif;üzüm;Ik koop druiven.
+de kers;kiraz;Ik eet kersen.
+de perzik;şeftali;Ik eet een perzik.
+de nectarine;nektarin;Ik koop een nectarine.
+de pruim;erik;Ik eet een pruim.
+de ananas;ananas;Ik koop een ananas.
+de meloen;kavun;Ik eet meloen.
+de watermeloen;karpuz;Ik koop een watermeloen.
+de framboos;ahududu;Ik eet frambozen.
+de bosbes;yaban mersini;Ik koop bosbessen.
+de blauwe bes;yaban mersini;Ik eet blauwe bessen.
+de mango;mango;Ik eet een mango.
+de kiwi;kivi;Ik koop een kiwi.
+de kokosnoot;Hindistan cevizi;Ik koop een kokosnoot.
+het water;su;Ik drink water.
+het mineraalwater;maden suyu;Ik drink mineraalwater.
+de koffie;kahve;Ik drink koffie.
+de thee;çay;Ik drink thee.
+het sap;meyve suyu;Ik drink sap.
+het sinaasappelsap;portakal suyu;Ik drink sinaasappelsap.
+de frisdrank;meşrubat / gazlı içecek;Ik drink frisdrank.
+de limonade;limonata / meyveli içecek;Ik drink limonade.
+de cola;kola;Ik drink cola.
+het bier;bira;Hij drinkt bier.
+de wijn;şarap;Zij drinkt wijn.
+de rode wijn;kırmızı şarap;Ik drink rode wijn.
+de witte wijn;beyaz şarap;Ik drink witte wijn.
+de suiker;şeker;Ik koop suiker.
+het zout;tuz;Ik doe zout in de soep.
+de olie;yağ;Ik gebruik olie.
+de olijfolie;zeytinyağı;Ik gebruik olijfolie.
+de azijn;sirke;Ik gebruik azijn.
+de saus;sos;Ik maak een saus.
+de mayonaise;mayonez;Ik eet mayonaise.
+de ketchup;ketçap;Ik wil ketchup.
+de jam;reçel;Ik eet brood met jam.
+de honing;bal;Ik eet honing.
+de mosterd;hardal;Ik wil mosterd.
+het meel;un;Ik koop meel.
+de bloem;un;Ik gebruik bloem.
+de rijst;pirinç;Ik kook rijst.
+de pasta;makarna;Ik kook pasta.
+de spaghetti;spagetti;Ik maak spaghetti.
+de kruiden;baharatlar / otlar;Ik gebruik kruiden.
+de kaneel;tarçın;Ik gebruik kaneel.
+de vanille;vanilya;Ik gebruik vanille.
+de supermarkt;süpermarket;Ik ga naar de supermarkt.
+de winkel;mağaza / dükkân;De winkel is open.
+de markt;pazar;Ik ga naar de markt.
+de bakker;fırıncı / fırın;Ik koop brood bij de bakker.
+de slager;kasap;Ik ga naar de slager.
+de groenteboer;manav;Ik koop groente bij de groenteboer.
+de visboer;balıkçı;Ik koop vis bij de visboer.
+de winkelier;dükkân sahibi / esnaf;De winkelier is aardig.
+de klant;müşteri;De klant betaalt.
+de medewerker;çalışan / görevli;De medewerker helpt mij.
+de kassa;kasa;De kassa is daar.
+de kassière;kasiyer;De kassière helpt mij.
+het winkelwagentje;alışveriş arabası;Ik heb een winkelwagentje.
+het mandje;sepet;Ik pak een mandje.
+de boodschappentas;alışveriş çantası;Ik heb een boodschappentas.
+het schap;raf;Het product staat op het schap.
+de plank;raf / tahta;Het brood staat op de plank.
+de verpakking;ambalaj;De verpakking is open.
+het product;ürün;Het product is goedkoop.
+het merk;marka;Wat is het merk?
+het artikel;ürün / eşya;Ik koop dit artikel.
+het vak;raf bölmesi;Het product ligt in dit vak.
+de ingang;giriş;Waar is de ingang?
+de uitgang;çıkış;Waar is de uitgang?
+de prijs;fiyat;Wat is de prijs?
+het bedrag;tutar;Het bedrag is tien euro.
+de korting;indirim;Er is korting.
+de aanbieding;kampanya / indirimli teklif;Deze aanbieding is goed.
+de bon;fiş;Ik wil de bon.
+het kassabonnetje;kasa fişi;Ik krijg een kassabonnetje.
+het geld;para;Ik heb geld.
+de euro;euro;Het kost vijf euro.
+de cent;sent;Het kost vijftig cent.
+de munt;madeni para;Ik heb een munt.
+het briefje;banknot;Ik betaal met een briefje.
+de pinpas;banka kartı;Ik betaal met mijn pinpas.
+de bankpas;banka kartı;Ik gebruik mijn bankpas.
+de creditcard;kredi kartı;Ik betaal met een creditcard.
+contant;nakit;Ik betaal contant.
+gratis;ücretsiz;Het is gratis.
+duur;pahalı;De kaas is duur.
+goedkoop;ucuz;De appels zijn goedkoop.
+goedkoper;daha ucuz;Dit is goedkoper.
+duurder;daha pahalı;Dit is duurder.
+kopen;satın almak;Ik koop brood.
+verkopen;satmak;De winkel verkoopt brood.
+betalen;ödemek;Ik betaal met pin.
+kosten;maliyeti olmak;Het kost vijf euro.
+bestellen;sipariş vermek;Ik bestel een pizza.
+kiezen;seçmek;Ik kies een salade.
+zoeken;aramak;Ik zoek melk.
+vinden;bulmak;Ik kan de kaas niet vinden.
+halen;gidip almak / getirip almak;Ik haal brood.
+meenemen;yanında götürmek / almak;Ik neem een tas mee.
+brengen;getirmek / götürmek;Ik breng het eten.
+krijgen;almak / elde etmek;Ik krijg een bon.
+geven;vermek;Ik geef de kassière geld.
+nemen;almak / seçmek;Ik neem een koffie.
+terugbrengen;geri getirmek;Ik breng het product terug.
+ruilen;değiştirmek;Ik wil dit ruilen.
+teruggeven;geri vermek;Ik geef het terug.
+passen;uymak / olmak;De schoenen passen.
+proberen;denemek;Ik wil dit proberen.
+bekijken;bakmak / incelemek;Ik bekijk het product.
+proeven;tatmak;Ik wil de kaas proeven.
+ruiken;koklamak / kokusu olmak;De kaas ruikt goed.
+eten;yemek;Ik eet een appel.
+drinken;içmek;Ik drink water.
+koken;yemek pişirmek / kaynatmak;Ik kook pasta.
+bakken;pişirmek / fırınlamak / kızartmak;Ik bak een cake.
+braden;kızartmak / kavurmak;Ik bak het vlees.
+grillen;ızgara yapmak;Ik grill de kip.
+snijden;kesmek;Ik snijd de tomaat.
+wassen;yıkamak;Ik was de groente.
+schillen;soymak;Ik schil de aardappel.
+mengen;karıştırmak;Ik meng de ingrediënten.
+roeren;karıştırmak;Ik roer de soep.
+toevoegen;eklemek;Ik voeg zout toe.
+serveren;servis etmek;Ik serveer het eten.
+opwarmen;ısıtmak;Ik warm het eten op.
+afkoelen;soğumak / soğutmak;Het eten moet afkoelen.
+lekker;lezzetli / güzel;De taart is lekker.
+heerlijk;nefis / çok lezzetli;Het eten is heerlijk.
+zoet;tatlı;De cake is zoet.
+zout;tuzlu;De soep is zout.
+zuur;ekşi;De citroen is zuur.
+bitter;acı / buruk;De koffie is bitter.
+pittig;baharatlı / acı;De saus is pittig.
+vers;taze;Het brood is vers.
+bevroren;dondurulmuş;De vis is bevroren.
+warm;sıcak;De soep is warm.
+koud;soğuk;Het water is koud.
+heet;çok sıcak;De koffie is heet.
+gezond;sağlıklı;Groente is gezond.
+ongezond;sağlıksız;Veel suiker is ongezond.
+vegetarisch;vejetaryen;Ik eet vegetarisch.
+veganistisch;vegan;Ik eet veganistisch.
+biologisch;organik;Ik koop biologische groente.
+vet;yağlı;Het vlees is vet.
+mager;yağsız / az yağlı;Ik koop mager vlees.
+droog;kuru;Het brood is droog.
+nat;ıslak;De tafel is nat.
+zacht;yumuşak;Het brood is zacht.
+hard;sert;Het brood is hard.
+het restaurant;restoran;We eten in het restaurant.
+het café;kafe;Ik ga naar het café.
+het menu;menü;Ik bekijk het menu.
+de menukaart;menü / yemek listesi;Mag ik de menukaart?
+de ober;erkek garson;De ober komt.
+de serveerster;kadın garson;De serveerster helpt ons.
+de kok;aşçı;De kok maakt het eten.
+de rekening;hesap;Ik wil de rekening.
+de fooi;bahşiş;Ik geef een fooi.
+het voorgerecht;başlangıç;Ik neem een voorgerecht.
+het hoofdgerecht;ana yemek;Het hoofdgerecht is lekker.
+het nagerecht;tatlı / son yemek;Ik wil een nagerecht.
+de soep;çorba;Ik bestel soep.
+de salade;salata;Ik neem een salade.
+het bord;tabak;Het bord is schoon.
+het glas;bardak;Ik wil een glas water.
+het kopje;fincan;Ik wil een kopje koffie.
+de beker;bardak / kupa;Ik drink uit een beker.
+de vork;çatal;Ik heb een vork.
+het mes;bıçak;Ik heb een mes.
+de lepel;kaşık;Ik heb een lepel.
+het servet;peçete;Ik heb een servet.
+de tafel;masa;De tafel is vrij.
+de stoel;sandalye;De stoel is vrij.
+reserveren;rezervasyon yapmak;Ik wil een tafel reserveren.
+rekening vragen;hesabı istemek;Ik wil de rekening vragen.
+eten bestellen;yemek sipariş etmek;Ik wil eten bestellen.
+drinken bestellen;içecek sipariş etmek;Ik wil drinken bestellen.
+een kilo;bir kilo;Ik wil een kilo appels.
+een halve kilo;yarım kilo;Ik wil een halve kilo kaas.
+een pond;yarım kilo;Ik wil een pond gehakt.
+een ons;100 gram;Ik wil een ons kaas.
+een liter;bir litre;Ik koop een liter melk.
+een halve liter;yarım litre;Ik wil een halve liter water.
+een fles;bir şişe;Ik koop een fles water.
+een pak;bir paket;Ik koop een pak melk.
+een doos;bir kutu;Ik koop een doos eieren.
+een blik;bir konserve kutusu;Ik koop een blik soep.
+een zak;bir poşet / paket;Ik koop een zak chips.
+een stuk;bir parça / adet;Ik wil een stuk taart.
+een paar;bir çift / birkaç;Ik koop een paar appels.
+een beetje;biraz;Ik wil een beetje suiker.
+veel;çok / birçok;Ik drink veel water.
+weinig;az;Ik eet weinig vlees.
+genoeg;yeterince;Ik heb genoeg eten.
+te veel;fazla / çok fazla;Ik eet te veel suiker.
+te weinig;çok az;Ik drink te weinig water.
+meer;daha fazla;Ik wil meer water.
+minder;daha az;Ik wil minder suiker.
+Hoeveel kost het?;Ne kadar?;Hoeveel kost het?
+Wat kost dit?;Bu ne kadar?;Wat kost dit?
+Hoeveel kost dat?;Şu ne kadar?;Hoeveel kost dat?
+Ik wil graag...;... istiyorum / rica ederim;Ik wil graag koffie.
+Ik wil...;... istiyorum;Ik wil een pizza.
+Mag ik...?;... alabilir miyim?;Mag ik een glas water?
+Kan ik...?;... yapabilir miyim?;Kan ik met pin betalen?
+Heeft u...?;... var mı?;Heeft u melk?
+Heb je...?;... var mı?;Heb je water?
+Ik zoek...;... arıyorum;Ik zoek brood.
+Ik neem...;... alıyorum / seçiyorum;Ik neem een salade.
+Waar is...?;... nerede?;Waar is de kassa?
+Zonder...;... olmadan / -siz;Ik wil koffie zonder suiker.
+Met...;... ile / -li;Ik wil thee met melk.
+Nog iets?;Başka bir şey?;Nog iets?
+Dat is alles.;Hepsi bu.;Dat is alles.
+De rekening, alstublieft.;Hesap lütfen.;De rekening, alstublieft.
+Een tafel voor twee, alstublieft.;İki kişilik masa lütfen.;Een tafel voor twee, alstublieft.
+Een tafel voor vier.;Dört kişilik masa.;Een tafel voor vier.
+Ik heb gereserveerd.;Rezervasyon yaptım.;Ik heb gereserveerd.
+Ik wil graag bestellen.;Sipariş vermek istiyorum.;Ik wil graag bestellen.
+Wat raadt u aan?;Ne önerirsiniz?;Wat raadt u aan?
+Wat wilt u drinken?;Ne içmek istersiniz?;Wat wilt u drinken?
+Wat wilt u eten?;Ne yemek istersiniz?;Wat wilt u eten?
+Smakelijk!;Afiyet olsun!;Smakelijk!
+Proost!;Şerefe!;Proost!
+Kan ik met pin betalen?;Kartla ödeyebilir miyim?;Kan ik met pin betalen?
+Kan ik contant betalen?;Nakit ödeyebilir miyim?;Kan ik contant betalen?
