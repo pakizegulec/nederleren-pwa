@@ -2,35 +2,101 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>NederLeren PWA</title>
-  <script src="https://code.responsivevoice.org/responsivevoice.js?key=FREE"></script>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background-color: #f4f4f9; color: #333; }
-    .card { background: white; padding: 35px 25px; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; max-width: 380px; width: 85%; margin-bottom: 20px; }
-    h1 { font-size: 2.2rem; margin-bottom: 10px; color: #1a1a1a; word-wrap: break-word; }
-    p { font-size: 1.2rem; color: #666; margin-bottom: 25px; }
-    .btn-group { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
-    button { background-color: #007aff; color: white; border: none; padding: 12px 20px; font-size: 1rem; border-radius: 8px; cursor: pointer; transition: background 0.2s; }
-    button.secondary { background-color: #34c759; }
-    button:active { opacity: 0.8; }
-    .counter { font-size: 0.9rem; color: #888; margin-top: 15px; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f0f2f5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .card-container {
+      background: #ffffff;
+      width: 100%;
+      max-width: 420px;
+      border-radius: 24px;
+      padding: 40px 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .dutch-text {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #1c1e21;
+      margin-bottom: 12px;
+      line-height: 1.2;
+      word-break: break-word;
+    }
+    .translation-text {
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: #606770;
+      margin-bottom: 32px;
+      min-height: 30px;
+    }
+    .controls {
+      display: flex;
+      gap: 12px;
+      width: 100%;
+      justify-content: center;
+    }
+    .btn {
+      flex: 1;
+      padding: 14px 20px;
+      border-radius: 14px;
+      border: none;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .btn:active { transform: scale(0.97); }
+    .btn-listen {
+      background-color: #007aff;
+      color: #ffffff;
+    }
+    .btn-next {
+      background-color: #34c759;
+      color: #ffffff;
+    }
+    .counter-badge {
+      margin-top: 24px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: #8a8d91;
+      background: #f7f8fa;
+      padding: 6px 14px;
+      border-radius: 20px;
+    }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h1 id="dutch-word">Laden...</h1>
-    <p id="translation">Yükleniyor...</p>
-    <div class="btn-group">
-      <button onclick="playAudio()">Listen 🔊</button>
-      <button class="secondary" onclick="nextCard()">Next ➡️</button>
+  <div class="card-container">
+    <div class="dutch-text" id="dutch-word">Laden...</div>
+    <div class="translation-text" id="translation">Yükleniyor...</div>
+    <div class="controls">
+      <button class="btn btn-listen" onclick="playAudio()">Listen 🔊</button>
+      <button class="btn btn-next" onclick="nextCard()">Next ➡️</button>
     </div>
-    <div class="counter" id="counter">0 / 0</div>
+    <div class="counter-badge" id="counter">0 / 0</div>
   </div>
 
   <script>
     let words = [];
     let currentIndex = 0;
+    let currentAudio = null;
 
     async function loadCSV() {
       try {
@@ -78,20 +144,23 @@
       const text = words[currentIndex] ? words[currentIndex].nl : '';
       if (!text || text === 'Laden...') return;
 
-      if (window.responsiveVoice) {
-        responsiveVoice.speak(text, "Dutch Female");
-      } else {
-        const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=nl&client=tw-ob`;
-        const audio = new Audio(audioUrl);
-        audio.play().catch(() => {
-          if ('speechSynthesis' in window) {
-            window.speechSynthesis.cancel();
-            const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = 'nl-NL';
-            window.speechSynthesis.speak(utterance);
-          }
-        });
+      if (currentAudio) {
+        currentAudio.pause();
+        currentAudio = null;
       }
+
+      // iOS Safari uyumlu doğrudan MP3 Akışı
+      const cleanText = encodeURIComponent(text);
+      const audioUrl = `https://api.streamelements.com/kappa/v2/speech?voice=Lotte&text=${cleanText}`;
+
+      currentAudio = new Audio(audioUrl);
+      currentAudio.play().catch(err => {
+        console.error("Audio playback error:", err);
+        // Fallback to VoiceText Engine
+        const fallbackUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${cleanText}&tl=nl&client=tw-ob`;
+        currentAudio = new Audio(fallbackUrl);
+        currentAudio.play();
+      });
     }
 
     window.onload = loadCSV;
