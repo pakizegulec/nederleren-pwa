@@ -36,14 +36,20 @@
       try {
         const response = await fetch('words.csv?v=' + Date.now());
         const data = await response.text();
-        const lines = data.split('\n');
-        words = lines.map(line => {
-          const parts = line.split(',');
-          if (parts.length >= 2) {
-            return { nl: parts[0].trim().replace(/^"|"$/g, ''), tr: parts[1].trim().replace(/^"|"$/g, '') };
+        const lines = data.split(/\r?\n/);
+        
+        words = [];
+        lines.forEach(line => {
+          if (!line.trim()) return;
+          const parts = line.includes(';') ? line.split(';') : line.split(',');
+          if (parts.length >= 1) {
+            const nlVal = parts[0] ? parts[0].trim().replace(/^"|"$/g, '') : '';
+            const trVal = parts[1] ? parts[1].trim().replace(/^"|"$/g, '') : '';
+            if (nlVal) {
+              words.push({ nl: nlVal, tr: trVal });
+            }
           }
-          return null;
-        }).filter(item => item && item.nl);
+        });
 
         if (words.length > 0) {
           showCard(0);
@@ -59,7 +65,7 @@
       if (words.length === 0) return;
       currentIndex = index;
       document.getElementById('dutch-word').innerText = words[currentIndex].nl;
-      document.getElementById('translation').innerText = words[currentIndex].tr;
+      document.getElementById('translation').innerText = words[currentIndex].tr || '-';
       document.getElementById('counter').innerText = `${currentIndex + 1} / ${words.length}`;
     }
 
@@ -69,7 +75,7 @@
     }
 
     function playAudio() {
-      const text = words[currentIndex] ? words[currentIndex].nl : document.getElementById('dutch-word').innerText;
+      const text = words[currentIndex] ? words[currentIndex].nl : '';
       if (!text || text === 'Laden...') return;
 
       if (window.responsiveVoice) {
