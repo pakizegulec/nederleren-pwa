@@ -21,10 +21,7 @@
   </div>
 
   <script>
-    function playDutchAudio() {
-      const text = document.getElementById('dutch-word').innerText;
-      const encodedText = encodeURIComponent(text);
-      const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodedText}&tl=nl&client=tw-ob`;
+    function playDutchAudio(text){ responsiveVoice.speak(text || document.getElementById("dutch-word").innerText, "Dutch Female"); }&tl=nl&client=tw-ob`;
       
       const audio = new Audio(audioUrl);
       audio.play().catch(err => {
